@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    background-color: cadetblue;
+    text-align: center;
+    font-size: 1.5rem;
+    padding:5px 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 50px;
+}
+.navbar a:hover{
+    background-color: chocolate;
+}
+.container{
+    display:inline;
+    position: relative;
+}
+.contents{
+    position: absolute;
+    top: 32px;
+    right:-15px;
+    display:none;
+    min-width: 100px;
+    
+
+}
+.container:hover .contents{
+    display: block;
+}
+.contents a{
+    display:block;
+    background-color:cadetblue;
+    text-align: left;
+  
+}
